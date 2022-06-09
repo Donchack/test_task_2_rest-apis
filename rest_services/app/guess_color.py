@@ -41,4 +41,4 @@ def get_color() -> dict:
         abort(400, description=message)
     if item_number < 1 or item_number > 100:
         abort(400, description='The item number must be from 1 to 100')
-    return jsonify({'solution': guess_clr(item_number)}), 201
+    return jsonify({'color': guess_clr(item_number)}), 201
