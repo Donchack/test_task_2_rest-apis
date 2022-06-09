@@ -29,7 +29,7 @@
 <p>docker run -it --name testrest -p 5000:5000 testrest</p>
 <H2>Проверка работы</H2>
 <H3>Сервис нахождения корней квадратичного уравнения</H3>
-<p>curl -X GET -H "Content-Type: application/json" -d '{"a": "x1", "b": "x2", "c": "-120"}' http://127.0.0.1:5000//square/api/v1.0/sq-equation   ,</p>
+<p>curl -X GET -H "Content-Type: application/json" -d '{"a": "x1", "b": "x2", "c": "x3"}' http://127.0.0.1:5000//square/api/v1.0/sq-equation   ,</p>
 <p>где x1, x2, x3 - вещественные числа</p>
 <H3>Сервис угадывания цвета предмета</H3>
 <p>curl -X GET -H "Content-Type: application/json" -d '{"number": "x"}' http://127.0.0.1:5000/guessclr/api/v1.0/color   ,</p>
